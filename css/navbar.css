@@ -1,0 +1,111 @@
+* {
+    direction: ltr;
+    font-family: 'Tajawal';
+  
+
+}
+body{
+    background-color: #F0F0F0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(81, 65, 226, 0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255); 
+}
+
+
+
+/* Start Css */
+
+.sidebar {
+    background: rgb(70, 39, 87);
+    background: linear-gradient(187deg, rgba(70, 39, 87, 1) 0%, rgba(140, 93, 166, 1) 100%);
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow-y: auto;
+}
+
+.sidebar div.logo {
+    position: relative;
+    top: 20px;
+    margin: 0 50px;
+    width: 68%;
+}
+
+.sidebar img.logo {width: 100%;}
+
+.sidebar .show-our-orderpage {
+    background-color: #8C5DA5;
+    border-radius: 3px;
+    width: 86%;
+    margin: 0 20px;
+    padding: 9px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+.sidebar .show-our-orderpage i {
+    margin-left: 10px;
+    font-size: 22px;
+    position: absolute;
+    right: 13%;
+    top: 30%;
+}
+
+.sidebar .show-our-orderpage div {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 35px;
+}
+
+.sidebar .sidebar-menu{ 
+      font-size: 22px;
+      font-weight: normal;
+      font-style: normal;
+}
+.sidebar .sidebar-menu ul{
+    list-style-type: none;
+    margin: 0 0px;
+    padding: 0px;
+}
+.sidebar .sidebar-menu ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 18px 1.1rem 18px;
+    padding: 10px;
+}
+.sidebar .sidebar-menu ul li.activ{
+
+    background-color: #3A2148;
+    margin: 0 10px;
+   text-indent: -4px;
+   box-shadow: 10px 0px 0px #44a686;
+   
+ 
+}
+.sidebar .sidebar-menu ul li.activ span{margin:  0 52px;}
+.sidebar .sidebar-menu ul li a{ color: white;}
+.sidebar .sidebar-menu  ul li a i:first-child{position: absolute; right: 30px; margin-top: 5px;}
+.sidebar .sidebar-menu  ul li a span{margin: 0 40px;}
+.sidebar .sidebar-menu  ul li a i:last-child{float: left; font-size: medium; margin-top: 8px;}
+
+.contenet{
+    position: relative;
+    top: 100px;
+    right: 100px;
+    border: 1px solid red;
+}
